@@ -1,4 +1,4 @@
-class BJF < Formula
+class Bjf < Formula
   desc "BranchJSONFile:分支json文件的创建"
   homepage "https://github.com/dvlpCI/script-branch-json-file"
   url "https://github.com/dvlpCI/script-branch-json-file/archive/0.0.3.tar.gz"

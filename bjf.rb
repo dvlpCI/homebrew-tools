@@ -1,8 +1,9 @@
 class Bjf < Formula
   desc "BranchJSONFile:分支json文件的创建"
   homepage "https://github.com/dvlpCI/script-branch-json-file"
-  url "https://github.com/dvlpCI/script-branch-json-file/archive/0.0.3.tar.gz"
-  sha256 "95fe968314e93a3a08ce18f641c21d3b684f4122ad0e076e2030236194ee2235"
+  url "https://github.com/dvlpCI/script-branch-json-file/archive/0.0.4.tar.gz"
+  sha256 "4b4571ea6d505ac55d8609dcb77b853934222dc3861d89ffc6e86d9d20accf97"
+  # version "0.0.4"
 
   def install
     # Install script to bin

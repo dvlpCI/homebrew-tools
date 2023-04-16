@@ -4,11 +4,13 @@ class Bjf < Formula
   url "https://github.com/dvlpCI/script-branch-json-file/archive/0.0.4.tar.gz"
   sha256 "4b4571ea6d505ac55d8609dcb77b853934222dc3861d89ffc6e86d9d20accf97"
   # version "0.0.4"
+  # version /(\d+\.\d+\.\d+)/  # 从 URL 中提取版本号
 
   def install
     # Install script to bin
     # bin.install "helloworld.sh"
     bin.install "bjf"
+    lib.install Dir["*"] # 记得添加lib目录，并将源码存放于lib里的src下
   end
 
 

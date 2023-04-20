@@ -1,8 +1,8 @@
 class Qtool < Formula
   desc "QTool:含分支json文件的创建+Jenkins打包"
   homepage "https://github.com/dvlpCI/script-branch-json-file"
-  url "https://github.com/dvlpCI/script-branch-json-file/archive/0.0.7.tar.gz"
-  sha256 "5039a865f27716697728e1bd9dec07dfedfab18ef8414cc2a4c0905322c7257e"
+  url "https://github.com/dvlpCI/script-branch-json-file/archive/0.0.8.tar.gz"
+  sha256 "344d03335e2ba337191b9afc8d1a1d834d7744d2a6107e0d91478d3bcfb9ebb3"
   # shasum -a 256 xxxx.tar.gz
   # version /(\d+\.\d+\.\d+)/  # 从 URL 中提取版本号
 
